@@ -1,0 +1,65 @@
+<html>
+	<head>
+		<script>
+		// Declarações sem modificador -> global
+		/*
+		
+LINGUAGEM FUNCIONAL (estudar)
+		
+			var -> local a uma função var numero = 5;
+			let -> local a um bloco let numero = 5;
+			
+			Hoistind: a veriavel começa como global
+			porém  há uma declaração 
+			local depos. A variavel ficara local.
+			
+			const variavel fica imutavel
+			dentro de um bloco. const x = 6;
+		*/
+			function variaveis(){
+				var	numero = 5; // Sempre usar variaveis local
+								// Ex. Variaveis globais x = 5;
+				
+				if(numero == 5){// Tautologia{
+					let y = 2;	// Let deixa a varavél apenas no bloco
+					alert(y);
+				}
+				
+			}
+			
+			/*
+				LISTAS
+				
+				PUSH
+				POP
+			*/
+			
+			function lista(){
+				var l = [];
+				l.push(7);
+				l.push(8,9);
+				for(let i = 0; i < l.length;i++){
+					alert(l[i]+1);
+				}
+				// Itera entre os indices da lista
+				for(let i in l){
+					alert(l[i]+1);
+				}
+			}
+			
+			function somarTodos(ls){
+				var soma = 0;
+				for(let i in ls){
+					soma = soma + ls[i];
+				}
+				return soma;
+			}
+			
+		</script>
+	</head>
+		<body>
+			<script>
+				alert(somarTodos([1,2,3]));
+			</script>		
+		</body>
+</html>
