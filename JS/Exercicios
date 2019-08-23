@@ -1,1 +1,11 @@
+1 - Faça uma função que receba um numero N e uma palavra.
+    Está Função deverá retornar as N primeiras letras.
+    
+2 - Faça uma função que receba duas palavras e retorne o maior, em
+tamanho, delas.
 
+3 - Faça uma função que receba uma palavra e retorne a primeira e 
+a ultima letra.
+
+4 - Faça uma função que retorne o maior e o menor elemento de uma lista
+de números.
