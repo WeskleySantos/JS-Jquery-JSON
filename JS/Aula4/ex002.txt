@@ -1,0 +1,12 @@
+1) MONTE UMA UL CONTENDO AS LI'S
+
+<ul>
+    <li>0</li>
+    <li>2</li>
+    <li>3</li>
+    ...
+    <li>1000</li>
+</ul>
+
+2) SUBSTITUA TODOS OS ELEMENTOS CONTENDO A CLASSE classe1 POR UM ELEMENTO DIV
+CONTENDO A STRING "OK".
